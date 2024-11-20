@@ -1,5 +1,29 @@
 body {
-    display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(147, 220, 228);
+}
+
+
+
+
+
+
+.container_1 {
+    background-color: white;
+    width: 500px;
+    height: 250px;
+      margin-left: 140px;
+      align-items: center;
+      justify-content: center;
+display: flex;
+}
+
+
+
+.container_2 {
+    background-color: rgb(232, 232, 170);
+    width: 170px;
+    height: 150px;
+    text-align: center;
 }
