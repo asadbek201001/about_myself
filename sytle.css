@@ -59,16 +59,99 @@ display: flex;
 
 
 
+.container {
+    width: 300px;
+    height: 400px;
+    background-color: red;
+    margin-top: 50px;
+    margin-left: 250px;
 
+}
+
+
+
+
+.ikkinchi {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-around;
+}
 
 .item_1 {
-     width: 80px;
-     height: 80px;
-     background-color: white;
-     margin-bottom: 300px;
+    width: 150px;
+    height: 200px;
+    background-color: white;
+}
+.item_1:hover {
+    background-color: rgb(236, 183, 121);
+}
+.item_2 {
+    width: 150px;
+    height: 200px;
+    background-color: white;
+}
+.item_2:hover {
+    background-color: rgb(236, 183, 121);
+}
+.item_3 {
+    width: 150px;
+    height: 200px;
+    background-color: white;
+}
+.item_3:hover {
+    background-color: rgb(236, 183, 121);
 }
 
 
 
 
 
+
+.uchinchi {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.items_1 {
+    width: 150px;
+    height: 200px;
+    background-color: white;
+}
+.items_1:hover {
+    background-color: rgb(236, 183, 121);
+}
+
+.items_2 {
+    width: 150px;
+    height: 200px;
+    background-color: white;
+}
+.items_2:hover {
+    background-color: rgb(236, 183, 121);
+}
+
+.items_3 {
+    width: 150px;
+    height: 200px;
+    background-color: white;
+
+}
+.items_3:hover {
+    background-color: rgb(236, 183, 121);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.joy {
+    height: 50px;
+}
