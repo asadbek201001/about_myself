@@ -1,0 +1,33 @@
+p {
+    color: aquamarine;
+}
+
+.sarlavha {
+    text-align: center;
+    background-color: green;
+}
+
+#list {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+a {
+    color: green;
+}
+
+.Davron {
+    font-size: 3px;
+    color: red;
+}
+
+.linklar {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.linklar a {
+    font-weight: 900;
+}

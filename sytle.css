@@ -2,156 +2,109 @@ body {
     align-items: center;
     justify-content: center;
     background-color: rgb(32, 42, 62);
-
 }
 
 .menu {
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-    width: 100%; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: rgb(198, 196, 196);
-
-
 }
-
 
 .menu ul {
     display: flex;
-    list-style: none; 
+    list-style: none;
     justify-content: space-around;
 }
 
 .menu ul li a {
     color: white;
-    text-decoration: none; 
-    padding: 5px 15px;
+    text-decoration: none;
+    padding: 1% 5%;
 }
 
 .menu ul li a:hover {
-    background-color: #575757; 
-    border-radius: 5px;
+    background-color: #575757;
+    border-radius: 5%;
 }
-
-
-
-
-
 
 .container_1 {
     background-color: white;
-    width: 500px;
-    height: 250px;
-      margin-left: 140px;
-      align-items: center;
-      justify-content: center;
-display: flex;
+    width: 65%;
+    height: auto;
+    margin-left: 17%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
-
-
 
 .container_2 {
     background-color: rgb(232, 232, 170);
-    width: 170px;
-    height: 150px;
+    width: 35%;
+    height: auto;
     text-align: center;
 }
 
-
-
 .container {
-    width: 300px;
-    height: 400px;
+    width: 30%;
+    height: 40%;
     background-color: red;
-    margin-top: 50px;
-    margin-left: 250px;
-
+    margin-top: 5%;
+    margin-left: 25%;
 }
-
-
-
 
 .ikkinchi {
     display: flex;
-    margin-top: 70px;
+    margin-top: 7%;
     justify-content: space-around;
 }
-
 .item_1 {
-    width: 150px;
-    height: 200px;
+    height: 5%;
+    background-color: white;
+    width: 10%;
+
+}
+
+ .item_2, .item_3 {
+    width: 10%;
+    height: 20%;
     background-color: white;
 }
-.item_1:hover {
+
+.item_1:hover, .item_2:hover, .item_3:hover {
     background-color: rgb(236, 183, 121);
 }
-.item_2 {
-    width: 150px;
-    height: 200px;
-    background-color: white;
-}
-.item_2:hover {
-    background-color: rgb(236, 183, 121);
-}
-.item_3 {
-    width: 150px;
-    height: 200px;
-    background-color: white;
-}
-.item_3:hover {
-    background-color: rgb(236, 183, 121);
-}
-
-
-
-
-
 
 .uchinchi {
     display: flex;
-    margin-top: 50px;
+    margin-top: 7%;
     justify-content: space-around;
 }
-.items_1 {
-    width: 150px;
-    height: 200px;
+
+.items_1, .items_2, .items_3 {
+    width: 10%;
+    height: 20%;
     background-color: white;
 }
-.items_1:hover {
+
+
+
+.items_1:hover, .items_2:hover, .items_3:hover {
     background-color: rgb(236, 183, 121);
 }
-
-.items_2 {
-    width: 150px;
-    height: 200px;
-    background-color: white;
-}
-.items_2:hover {
-    background-color: rgb(236, 183, 121);
-}
-
-.items_3 {
-    width: 150px;
-    height: 200px;
-    background-color: white;
-
-}
-.items_3:hover {
-    background-color: rgb(236, 183, 121);
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 .joy {
-    height: 50px;
+    height: 20%;
+}
+
+footer {
+    justify-content: space-around;
+    background-color: #333;
+    color: white;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    display: flex;
 }

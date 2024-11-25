@@ -1,0 +1,97 @@
+
+body {
+align-items: center;
+justify-content: center;
+}
+@keyframes test {
+    0% {
+        background-color: rgb(255, 157, 0);
+        padding: 0;
+    }
+    50% {
+        margin-top: 800px;
+        background-color: yellow;
+    }
+    100% {
+        margin-bottom: 800px;
+        background-color: rgb(255, 157, 0);
+        padding: 10px;
+    }
+}
+
+.sun {
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; 
+    background-color: rgb(255, 230, 0);
+    margin-left: 1100px;
+    animation-name: test;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.bulut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 300px; 
+}
+
+.bulut img {
+    animation-name: bulut;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.bulut_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.bulut_2 img {
+    animation-name: bulut_2;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bulut {
+    0% {
+        padding: 0;
+    }
+    50% {
+        margin-left: 2800px;
+    }
+    100% {
+        margin-right: 3000px;
+    }
+}
+
+@keyframes bulut_2 {
+    0% {
+        padding: 0;
+    }
+    50% {
+        margin-left: 5000px;
+    }
+    100% {
+        margin-right: 10000px;
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,124 @@
+body {
+    background-color: blue;
+    align-items: center;
+}
+
+
+
+
+.item_1 {
+align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    position: fixed;
+    gap: 20px;
+     
+}
+
+
+
+
+.item_1_1 {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+
+}
+.item_1_1 img {
+    width: 100px;
+    height: 100px;
+    margin-left: 45px;
+}
+
+
+
+
+
+
+.item_1_2 {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+
+}
+.item_1_2 img {
+    width: 100px;
+    height: 100px;
+    margin-left: 45px;
+}
+
+
+
+
+
+
+.item_1_3 {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+
+}
+.item_1_3 img {
+    width: 100px;
+    height: 100px;
+    margin-left: 45px;
+}
+
+
+
+
+
+
+
+.item_1_4 {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+margin-right: 250px;
+}
+.item_1_4 img {
+    width: 100px;
+    height: 100px;
+    margin-left: 45px;
+
+}
+
+
+
+.all {
+    width: 500px;
+    height: 400px;
+    background-color: aqua;
+    margin-left: 182px;
+}
+
+
+.all input {
+    font-size: 25px;
+}
+
+.joy {
+    height: 25px;
+}
+.joy_1 {
+    background-color: white;
+    width: 300px;
+    height: 70px;
+}
+
+
+.all button {
+ font-size: 25px;
+ color: blue;
+ background-color: aqua;
+ border-radius: 100px;
+}
+
+
+
+
+.place {
+    height: 300px;
+}
+
